@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Capedwarf Endpoint Test</title>
+<script type="text/javascript" src="/js/base.js"></script>
+</head>
+<body>
+	<button id="getButton" disabled="true">Get data</button>
+	<div id="response"></div>
+	<script type="text/javascript">
+		function init() {
+			endpoint.js.init('//' + window.location.host + '/_ah/api');
+		}
+	</script>
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
+</html>
