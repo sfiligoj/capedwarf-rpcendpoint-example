@@ -1,12 +1,17 @@
 Capedwarf RPC Endpoint Example
 ========================
 
-Building
+Build and deploy on App Engine development server
 ---
 
-Build with maven and launch devserver
+> mvn clean compile appengine:devserver
 
->mvn clean compile appengine:devserver
+Build and deploy on CapeDwarf
+---
+
+> mvn clean compile package
+
+Copy the ROOT.war from the target subdirectory to the CapeDwarf deployment directory.
 
 Running the example
 ---
