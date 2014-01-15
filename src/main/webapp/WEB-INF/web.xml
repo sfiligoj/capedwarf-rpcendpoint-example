@@ -7,7 +7,7 @@
 		<servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
 		<init-param>
 			<param-name>services</param-name>
-			<param-value>com.google.devrel.samples.helloendpoints.Greetings</param-value>
+			<param-value>eu.novalike.capedwarf.endpointTest.service.TestEndpoint</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
